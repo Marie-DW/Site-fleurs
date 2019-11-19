@@ -1,0 +1,186 @@
+html {
+	position: relative;
+    min-height: 100%;
+}
+
+.main-container {
+	padding-bottom:110px;
+	margin-left: :auto;
+	margin-right:auto;
+}
+
+	.white-font {
+	color:#fff;
+}
+	.fleurhome {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image:('img/fleurback.jpg');
+	position:relative;
+}
+
+.fleurhome-child {
+	position:absolute;
+}
+
+.form-home {
+	display:flex;
+	justify-content: center;
+}
+
+.navbar {
+	margin-bottom: 20px;
+	background-color: #f6cd90 !important;
+}
+
+.list-group {
+	padding-top: 30px;
+	justify-content: center;
+}
+
+.list-group-item img {
+	width:10%;
+
+
+}
+
+.list-group-item{
+	border: solid 1px white; 
+
+}	
+
+.list-incline {
+	height: 30px;
+	width: 30px;
+}
+
+.icon-custom > li > img {
+width: 20px;
+height: 20px;
+}
+
+.logo > li > a> img{
+	width: 40px;
+	height: 40px;
+	margin-top: 10px;
+}
+
+.banner {
+	background-color: #f6cd90;
+}
+
+.container-custom {
+	background-color: white;
+}
+
+.bg-light  {
+	background-color: #f6cd90 !important;
+}
+
+
+
+.row > img{
+	margin-left: 250px;
+	margin-bottom: 25px;
+}
+
+
+.col-lg-8 {
+	text-align: center;
+}
+
+
+.flexbox{
+	justify-content: center;
+	align-items: center;
+}
+
+.prix {
+	margin-top: 10px;
+}
+
+
+
+.btn-success {
+    color: black !important;
+    background-color: #f6cd90 !important;
+    border-color: black !important;
+}
+ .button  {
+ 	color: black;
+    background-color: #f6cd90;
+    border-color: black;
+    border-radius: 4px;
+    margin-bottom: 25px;
+}
+
+  .button:hover a {
+  	background-color:#f6cd90;
+  	text-decoration: none;
+  	color:white;
+
+}
+
+  .button a {
+   	color: black;
+}
+
+  .btn-primary{
+  background-color:#f6cd90 !important;
+  border-color:#f6cd90 !important;
+  color: black !important;
+}
+  
+  .container{
+   text-align: center;
+}
+
+  .form-inline .form-control {
+  margin-bottom: 7px;
+}
+
+  .flower{
+   font-family: 'Lobster Two', cursive;
+   margin-top: 25px;
+   margin-bottom: 20px;
+}
+
+  .font{
+   font-family: 'Rokkitt', serif;
+}
+
+	.logoflower{
+	color: pink;
+}
+/*
+.btn-block{
+	margin-bottom: 300px;
+}*/
+
+	.bloc{
+
+}
+.margin-bottom{
+	margin-bottom: 10px;
+}
+.padding{
+	padding: 20px 10px;
+}
+.padding-top{
+padding-top: 20px;
+}
+footer {
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+
+
+@media screen and (min-width:500px){
+		.photo img{
+		width:480px;
+		text-align: center;
+	}
+}
